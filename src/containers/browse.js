@@ -83,7 +83,7 @@ export function BrowseContainer({ slides }) {
       </Header>
 
       <Card.Group>
-        {slideRows.map((slideItem) => (
+        {slideRows.map((slideItem ) => (
           <Card key={`${category}-${slideItem.title.toLowerCase()}`}>
             <Card.Title>{slideItem.title}</Card.Title>
             
