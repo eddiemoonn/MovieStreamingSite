@@ -5,6 +5,7 @@ import * as ROUTES from './constants/routes';
 import { IsUserRedirect, ProtectedRoute } from './helpers/routes';
 import { useAuthListener } from './hooks';
 
+//made changes here "default function"n
 export default function App() {
   const { user } = useAuthListener();
   //const user = null;
